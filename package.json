@@ -1,13 +1,13 @@
 {
-	"name": "twig",
+    "name": "twig",
     "displayName": "Twig",
-	"description": "Syntax highlighting for PHP Twig",
+    "description": "Syntax highlighting for PHP Twig",
     "icon": "icon.svg",
-	"version": "1.0.0",
-	"publisher": "whatwedo",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
+    "version": "1.0.1",
+    "publisher": "whatwedo",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/whatwedo/vscode-twig/issues",
@@ -18,30 +18,40 @@
         "type": "git",
         "url": "https://github.com/whatwedo/vscode-twig.git"
     },
-	"categories": [
-		"Languages"
-	],
+    "categories": [
+        "Languages"
+    ],
     "keywords": [
-      "php",
-      "twig",
-      "html",
-      "template"  
+        "php",
+        "twig",
+        "html",
+        "template"
     ],
     "galleryBanner": {
         "color": "#BBCE29",
         "theme": "light"
     },
-	"contributes": {
-		"languages": [{
-			"id": "twig",
-			"aliases": ["HTML (Twig)", "twig"],
-			"extensions": [".twig",".html.twig"],
-			"configuration": "./twig.configuration.json"
-		}],
-		"grammars": [{
-			"language": "twig",
-			"scopeName": "text.html.twig",
-			"path": "./syntaxes/twig.tmLanguage"
-		}]
-	}
+    "contributes": {
+        "languages": [
+            {
+                "id": "twig",
+                "aliases": [
+                    "HTML (Twig)",
+                    "twig"
+                ],
+                "extensions": [
+                    ".twig",
+                    ".html.twig"
+                ],
+                "configuration": "./twig.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "twig",
+                "scopeName": "text.html.twig",
+                "path": "./syntaxes/twig.tmLanguage"
+            }
+        ]
+    }
 }
